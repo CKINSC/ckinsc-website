@@ -1,0 +1,71 @@
+/* Reset & Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #004d99;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: #e0f0ff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #004d99;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
